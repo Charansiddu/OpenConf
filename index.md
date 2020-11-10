@@ -1,4 +1,4 @@
-#INSTALLATION OF OPENCONF
+**INSTALLATION OF OPENCONF**
 
 Run the following commands:
 
@@ -43,13 +43,13 @@ exit;
 
 Sendmail can be installed with sudo apt install sendmail for e-mail operations . If a notification is to be sent to gmail (or hotmail yahoo) or sent from there , mail should be sent using gmail with ssmtp instead of sendmail.
 
-sending mail using gmail via Linux shell
+**sending mail using gmail via Linux shell**
 
 The sSMTP program can be used to send e-mails with commands over Linux. So what will this do? I will use this process to e-mail myself when my long process is completed. Another use is to be notified, for example, when a program that needs to run continuously on the server or the server itself stops working.
 
 First of all , we install the sSMTP program.
 
-sudo apt-get install ssmtp
+**sudo apt-get install ssmtp**
 
 Then we open the /etc/ssmtp/ssmtp.conf file with sudo and edit it as follows. You write your gmail address in the first line and your password in the second line. The rest remains as it is.
 
@@ -63,8 +63,9 @@ mailhub = smtp.gmail.com: 587
 
 UseSTARTTLS = YES
 
-step 2:
-download php mailler and configure
+**step 2:
+download php mailler and configure**
+
 Place it in plugin/phpmailler
 
 
