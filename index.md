@@ -1,4 +1,4 @@
-INSTALLATION OF OPENCONF
+#INSTALLATION OF OPENCONF
 
 Run the following commands:
 
