@@ -70,7 +70,7 @@ download php mailler and configure**
 
 Place it in plugin/phpmailler
 
-![image]https://github.com/Charansiddu/OpenConf-Installation-on-Ubuntu/images/image.png
+![image](https://github.com/Charansiddu/OpenConf-Installation-on-Ubuntu/images/image.png)
 
 
 
