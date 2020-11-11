@@ -18,15 +18,13 @@ unzip openconf-7.10.zip
 
 sudo rm /var/www/html/index.html
 
-sudo cp -r openconf / * / var / www / html /
-
+sudo cp -r openconf/* /var/www/html/ 
 sudo apt install php php-mysql php-pear php-xml * php-cgi php-cli
 
 sudo apt install mysql-server
 
-sudo chown -R www-data: www-data / var / www / html / *
-
-sudo chmod -R g + rwX / var / www / html / *
+sudo chown -R www-data:www-data/var/www/html/* 
+sudo chmod -R g + rwX /var/www/html/*
 
 /etc/init.d/apache2 restart
 
