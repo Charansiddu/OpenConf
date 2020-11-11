@@ -55,15 +55,15 @@ First of all , we install the sSMTP program.
 
 Then we open the /etc/ssmtp/ssmtp.conf file with sudo and edit it as follows. You write your gmail address in the first line and your password in the second line. The rest remains as it is.
 
-**AuthUser = ........ @ gmail.com
+**AuthUser = ........ @ gmail.com**
 
-**AuthPass = ........
+**AuthPass = ........**
 
-**FromLineOverride = YES
+**FromLineOverride = YES**
 
-**mailhub = smtp.gmail.com: 587
+**mailhub = smtp.gmail.com: 587**
 
-**UseSTARTTLS = YES
+**UseSTARTTLS = YES**
 
 **step 2:
 download php mailler and configure**
